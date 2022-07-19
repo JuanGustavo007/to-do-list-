@@ -1,0 +1,75 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+   background-color: rgb(218, 221, 204);
+   background-image: url("./back.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(56, 56, 56);
+}
+
+h1::before {
+   content: "{";
+}
+
+h1::after {
+   content: "}";
+
+}
+
+
+button {
+   padding: 6px;
+   border-radius: 4px;
+   border: 1px solid rgb(218, 221, 204);
+   font-family: monospace;
+   font-size: 10px;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+/* Input*/
+input {
+   padding: 10px 5px;
+   border: 1px solid rgb(191, 191, 191);
+   outline: none;
+   border-radius: 4px;
+}
+
+.estilo {
+   font-size: 1.2rem;
+   font-family: monospace;
+   padding: 10px;
+   background-color: aliceblue;
+   margin-bottom: 5px;
+   width: 100%;
+}
+
+.estilo::before {
+   content: "-";
+
+}
+
+.estilo::after {
+   content: ";";
+}
+
+.margin-p {
+   margin-top: 10px;
+}
